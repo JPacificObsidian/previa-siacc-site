@@ -1,0 +1,1067 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+    <title>Siacc - Semana Integrada de Atividades Científicas e Culturais</title>
+    <link rel="shortcut icon" href="Imgs\Logo Siacc.png">
+    <!--Pure-Css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
+    <link rel="stylesheet" href="Css\style.css">
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<div id="layout" class="pure-g ">
+    <div class="sidebar pure-u-1-3 pure-u-md-1-5 pure-u-lg-1-6">  
+        <div class="header">
+            <h1 class="brand-title">Siacc</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                       <ul><a class="pure-button" href="#introducao"><i class="fas fa-book"></i> Intodução</a></ul> 
+                       <ul><a class="pure-button" href="#programacao"><i class="fas fa-calendar-alt"></i> Pogramação</a></ul> 
+                       <ul><a class="pure-button" href="#palestras"><i class="fas fa-microphone"></i> Palestras</a></ul>
+                       <ul><a class="pure-button" href="#minicursos"><i class="fas fa-pencil-alt"></i> Minicursos</a></ul>
+                       <ul><a class="pure-button" href="#oficinas"><i class="fas fa-chalkboard-teacher"></i> Oficinas</a></ul> 
+                       <ul><a class="pure-button" href="#patrocinadores"><img src="Imgs/icons8-holding-hands-64.png" width="17px" alt=""> Patrocinadores</a></ul>  
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="iIcon">
+            <a href="https://www.instagram.com/siacc.ctbj/" class="social-icon" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+
+    <button id="toggleSidebar" class="pure-button toggle-btn">☰</button>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            <div class="posts" id="introducao">
+                <section class="post">
+                    <header class="post-header">
+                    
+                        <h2 class="post-title">Introdução à Siacc</h2>
+
+                        <p class="post-meta">
+                            Por <a href="https://www.instagram.com/hs.souz/" class="post-author" target="_blank">Thiago Henrique</a>
+                        </p>
+
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            Vem aí a II Semana Integrada de Atividades Científicas e Culturais (SIACC) 2024. Durante essa semana especial, os participantes poderão desfrutar de uma programação diversificada, que inclui palestras, oficinas, exposições e apresentações artísticas. A SIACC não apenas estimula a curiosidade e o aprendizado, mas também fortalece os laços entre os membros da comunidade acadêmica e a população em geral. Os alunos terão a chance de apresentar seus projetos e pesquisas, permitindo que eles compartilhem suas descobertas e aprendizados. Professores e especialistas estarão disponíveis para orientações e debates, enriquecendo ainda mais o ambiente de aprendizado. A participação da comunidade é fundamental, pois todos são convidados a se envolver e prestigiar as atividades, promovendo um diálogo produtivo e uma maior integração social.
+                        </p>
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="posts" id="programacao">
+                <section class="post">
+                    <header class="post-header">
+
+                        <h2 class="post-title">Programação Siacc</h2>
+
+                        <p class="post-meta">
+                            Por <a class="post-author" href="https://www.instagram.com/0cavalcante_/" target="_blank">Callebe Miranda</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th colspan="9">Progamação</th>
+                                </tr>
+                            </thead>
+                        
+                            <tbody>
+                                <tr>
+                                    <th>Data</th>
+                                    <th>Atividade</th>
+                                    <th>Horário</th>
+                                    <th>Titulo</th>
+                                    <th>Responsavel</th>
+                                    <th>Capacidade</th>
+                                    <th>Local</th> 
+                                    <th>Observações</th>
+                                    <th>Status</th>  
+                                </tr>
+                                
+                                <tr>
+                                    <td class="data" rowspan="2">21/10</td>
+                                    <td rowspan="2" class="abertura">Abertura</td>
+                                    <td>14:00</td>
+                                    <td>Apresentação Cultural: Grupo de Flauta </td>
+                                    <td>Prof. Ma. Alessandra Maria Magalhães</td>
+                                    <td></td>
+                                    <td>Auditório CPCE </td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    
+                                    <td>14:30</td>
+                                    <td>Palestra "Empreendedorismo em dois tempos" </td>
+                                    <td>Maria do Rosario Barbosa Barros </td>
+                                    <td></td>
+                                    <td>Auditório CPCE </td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td class="data" rowspan="10">22/10</td>
+                                    <td rowspan="2" class="mini-cursos">Mini Cursos</td>
+                                    <td>08:00 18:00</td>
+                                    <td>Introdução a Operação de Drone [ Parte I - Teórica ] </td>
+                                    <td>Lucas Medeiros Jacó </td>
+                                    <td>30</td>
+                                    <td>Sala do 2°A</td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>08:00 12:00</td>
+                                    <td>Análise de Dados utilizando Phyton [ Parte I ]</td>
+                                    <td>Prof. Dr. Arthur Mendes Medeiros (e orientandos)</td>
+                                    <td>20</td>
+                                    <td>Laboratório de Informática I </td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td rowspan="5" class="oficinas">Oficinas</td>
+                                    <td>08:00 12:00</td>
+                                    <td>Acessibilidade: Oficina Sensorial </td>
+                                    <td>Prof. Dr. Fernando Gomes de Andrade </td>
+                                    <td>20</td>
+                                    <td>Lab. Biologia</td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>08:30 10:00</td>
+                                    <td>Reciclagem e artesanato [ Turma I ]</td>
+                                    <td>Valdinar Ferreira Saldana </td>
+                                    <td>15</td>
+                                    <td>Rota do R.U.</td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>09:00 12:00</td>
+                                    <td>Ciência Impressa: O que é impressão 3D?</td>
+                                    <td>Prof. Me. Gustavo Amorin</td>
+                                    <td>25</td>
+                                    <td>Sala do A.C.S.</td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>08:00 11:00</td>
+                                    <td>Cine Cultura Mexicana "Viva - A vida é uma festa"</td>
+                                    <td>Prof. Ma. Alessandra Maria Magalhães</td>
+                                    <td>50</td>
+                                    <td>Sala 3°A</td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>10:00 11:30</td>
+                                    <td>Reciclagem e artesanato [ Turma II ] </td>
+                                    <td>Valdinar Ferreira Saldana </td>
+                                    <td>15</td>
+                                    <td>Rota do R.U. </td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td rowspan="3" class="palestras">Palestras</td>
+                                    <td>08:00 10:00</td>
+                                    <td>Carreira no Direito: A Vida de um Advogado</td>
+                                    <td>Klécio Robert Vieira do Nascimento.</td>
+                                    <td>120</td>
+                                    <td>Auditório</td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>10:00 12:00</td>
+                                    <td>Carreira no Jornalismo: A Vida de um Jornalista</td>
+                                    <td>Rogério Fontes de Siqueira Junior</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>08:00 12:00</td>
+                                    <td>Mulher e a Patrulha Maria da Penha</td>
+                                    <td>Ana Calisto</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td class="data" rowspan="13">23/10</td>
+                                    <td rowspan="5" class="mini-cursos">Mini Cursos</td>
+                                    <td>08:00 12:00</td>
+                                    <td>Introdução a Operação de Drone [Parte II - Prática] [Turma I]Lucas Medeiros Jacó</td>
+                                    <td>Lucas Medeiros Jacó </td>
+                                    <td>15</td>
+                                    <td>Campo</td>
+                                    <td>Apenas para quem
+                                        cursou a Parte Teórica</td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>08:00 12:00</td>
+                                    <td>Análise de Dados utilizando Phyton [Parte II]</td>
+                                    <td>Prof. Dr. Arthur Mendes Medeiros (e orientandos) </td>
+                                    <td>20</td>
+                                    <td>Laboratório de
+                                        Informática I</td>
+                                    <td>apenas para quem
+                                        cursou a Parte I</td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>08:00 12:00</td>
+                                    <td>Controle de Qualidade de Sementes</td>
+                                    <td>Prof. Dr. Tiago de Oliveira Sousa </td>
+                                    <td>20</td>
+                                    <td>Sala do A.C.S.</td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>14:00 18:00</td>
+                                    <td>Introdução a Operação de Drone [Parte II - Prática] [Turma II]Lucas Medeiros Jacó</td>
+                                    <td>Lucas Medeiros Jacó </td>
+                                    <td>15</td>
+                                    <td>Campo</td>
+                                    <td>Apenas para quem
+                                        cursou a Parte Teórica</td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>08:00 12:00</td>
+                                    <td>Introdução à meliponicultura</td>
+                                    <td>Sandra Santos de Sousa </td>
+                                    <td>120</td>
+                                    <td>Auditório </td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td rowspan="4" class="oficinas">Oficinas</td>
+                                    <td>08:00 11:00</td>
+                                    <td>Cine Cultura Mexicana "Apocalypto"</td>
+                                    <td>Prof. Ma. Alessandra Maria Magalhães</td>
+                                    <td>50 </td>
+                                    <td>Sala 3°A</td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>08:00 12:00</td>
+                                    <td>Arteterapia</td>
+                                    <td>Prof. Ma. Alessandra Maria Magalhães, Prof. Dra. Carla
+                                        Danielle Araujo Feitosa, Francielle Xavier Dias </td>
+                                    <td>30 </td>
+                                    <td>Sala do Módulo II Enfermagem </td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>08:00 12:00</td>
+                                    <td>Do lixo ao luxo: Soluções criativas para
+                                        Reaproveitamento de resíduos sólidos</td>
+                                    <td>Prof. Ma. Geovania Figueiredo da Silva</td>
+                                    <td>25</td>
+                                    <td>Sala 2°A</td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>14:00 17:30</td>
+                                    <td>Confecção de recipiente-iscas para abelhas sem ferrão</td>
+                                    <td>Sandra Santos de Sousa</td>
+                                    <td>30</td>
+                                    <td>Apiário</td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td rowspan="4" class="palestras">Palestras</td>
+                                    <td>08:00 10:00</td>
+                                    <td>Arquitetura em Foco: A Carreira e a Vida de um Arquiteto </td>
+                                    <td>Havell Amarante</td>
+                                    <td>50</td>
+                                    <td>Sala 1°A</td>
+                                    <td>Pegar datashow</td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>08:00 11:00</td>
+                                    <td>A utilização de drones na agricultura</td>
+                                    <td>Jean Fernando Leme Silva, Milane Sales Lobato Leme
+                                        Silva e Leanderson da Silva Toneti </td>
+                                    <td>50</td>
+                                    <td>Sala 1°B</td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>08:00 11:00</td>
+                                    <td>Inovação na Educação: O Impacto Transformador da
+                                        Tecnologia no Ensino e Aprendizagem. </td>
+                                    <td>Daniel Freitas de Oliveira</td>
+                                    <td>50</td>
+                                    <td>Sala 1°C</td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td>10:00 12:00</td>
+                                    <td>Turismo em Foco: A Carreira e a Vida de uma
+                                        Turismóloga</td>
+                                    <td>Amanda Truvial </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td class="data" rowspan="2">24/10</td>
+                                    <td rowspan="1" class="mini-cursos">Mini Cursos</td>
+                                    <td>08:00 12:00</td>
+                                    <td>Introdução à meliponicultura </td>
+                                    <td>Sandra Santos de Sousa</td>
+                                    <td>120</td>
+                                    <td>Auditório</td>
+                                    <td>Apenas para os alunos
+                                        da EJA </td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td rowspan="4" class="oficinas">Oficinas</td>
+                                    <td>08:00 12:00</td>
+                                    <td>Confecção de recipiente-iscas para abelhas sem ferrão</td>
+                                    <td>Sandra Santos de Sousa</td>
+                                    <td>30</td>
+                                    <td>Apiário</td>
+                                    <td>Apenas para os alunos
+                                        da EJA </td>
+                                    <td class="status">Confirmado</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!--Slide1-->
+
+                <section class="post" id="palestras">
+                    <header class="post-header">
+                        
+                        <h2 class="post-title">Palestras</h2>
+                        <p class="post-meta">
+                            Por <a class="post-author" href="https://www.instagram.com/kaua.opc/" target="_blank">Kauã Pereira</a>
+                        </p>
+                    </header>
+                    <div class="post-slide"> 
+                        <div class="slideshow-conteiner pure-u-1">
+                            <div class="mySlides1 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">1 / 8</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/mariarosa.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Maria do Rosario Barbosa Barros</h3>
+                                        <h3>Palestra "Empreendedorismo em dois tempos"</h3>
+                                        <h3>Local</h3>
+                                        <p>Auditório CPCE</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>21/10, 14:30</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides1 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">2 / 8</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/klecio.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                
+                                    <div class="description">
+                                        <h3>Klécio Robert Vieira do Nascimento</h3>
+                                        <h3>Carreira no Direito: A Vida de um Advogado</h3>
+                                        <h3>Local</h3>
+                                        <p>Auditório CTBJ</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>22/10, 08:00 às 10:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides1 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">3 / 8</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/rogerfontes.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>Rogério Fontes de Siqueira Junior</h3>
+                                        <h3>Carreira no Jornalismo: A Vida de um Jornalista</h3>
+                                        <h3>Local</h3>
+                                        <p>Auditório CTBJ</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>22/10, 10:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides1 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">4 / 8</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/Img03.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Ana Calisto</h3>
+                                        <h3>Mulher e a Patrulha Maria da Penha</h3>
+                                        <h3>Local</h3>
+                                        <p>Auditório CTBJ</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>22/10, 08:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides1 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">5 / 8</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/Img03.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>Havell Amarante</h3>
+                                        <h3>Arquitetura em Foco: A Carreira e a Vida de um Arquiteto</h3>
+                                        <h3>Local</h3>
+                                        <p>Sala 1°A</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 08:00 às 10:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides1 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">6 / 8</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/droneagro.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>Jean Fernando Leme Silva, Milane Sales Lobato Leme Silva e Leanderson da Silva Toneti</h3>
+                                        <h3>A utilização de drones na agricultura</h3>
+                                        <h3>Local</h3>
+                                        <p>Sala 1°B</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 08:00 às 11:00</p>
+                                    </div>
+                                </div>
+                            </div><div class="mySlides1 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">7 / 8</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/danifreitas.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Daniel Freitas de Oliveira</h3>
+                                        <h3>Inovação na Educação: O Impacto Transformador da Tecnologia no Ensino e Aprendizagem</h3>
+                                        <h3>Local</h3>
+                                        <p>Sala 1°C</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 08:00 às 11:00</p>
+                                    </div>
+                                </div>
+                            </div><div class="mySlides1 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">8 / 8</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/Img03.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Amanda Truvia</h3>
+                                        <h3>Turismo em Foco: A Carreira e a Vida de uma Turismóloga</h3>
+                                        <h3>Local</h3>
+                                        <p>Auditório CTBJ</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 10:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+            
+                        </div> 
+                    </div>
+                </section>
+
+                <!--Slide2-->
+
+                <section class="post" id="minicursos">
+                    <header class="post-header">
+                        
+                        <h2 class="post-title">Minicursos</h2>
+                        <p class="post-meta">
+                            Por <a class="post-author" href="https://www.instagram.com/hs.souz/" target="_blank">Thiago Henrique</a>
+                        </p>
+                    </header>
+                    <div class="post-slide"> 
+                        <div class="slideshow-conteiner pure-u-1">
+                            <div class="mySlides2 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">1 / 7</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/lucasmedeiros.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Lucas Medeiros Jacó</h3>
+                                        <h3>Introdução a Operação de Drone [ Parte I - Teórica ]</h3>
+                                        <h3>Local</h3>
+                                        <p>	Sala do 2°A</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>22/10, 08:00 às 18:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides2 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">2 / 7</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/arturmedeiros.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>Prof. Dr. Arthur Mendes Medeiros (e orientandos)</h3>
+                                        <h3>Análise de Dados utilizando Phyton [ Parte I ]</h3>
+                                        <h3>Local</h3>
+                                        <p>Laboratório de Informática I</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>22/10, 08:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides2 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">3 / 7</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/lucasmedeiros.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Lucas Medeiros Jacó</h3>
+                                        <h3>Introdução a Operação de Drone [Parte II - Prática] [Turma I]</h3>
+                                        <h3>Local</h3>
+                                        <p>Campo</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 08:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides2 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">4 / 7</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/arturmedeiros.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>Prof. Dr. Arthur Mendes Medeiros (e orientandos)</h3>
+                                        <h3>Análise de Dados utilizando Phyton [Parte II]</h3>
+                                        <h3>Local</h3>
+                                        <p>Laboratório de Informática I</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 08:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides2 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">5 / 7</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/tiagooliveira.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>Prof. Dr. Tiago de Oliveira Sousa	</h3>
+                                        <h3>Controle de Qualidade de Sementes</h3>
+                                        <h3>Local</h3>
+                                        <p>Sala do A.C.S.</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 08:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides2 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">6 / 7</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/lucasmedeiros.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Lucas Medeiros Jacó</h3>
+                                        <h3>Introdução a Operação de Drone [Parte II - Prática] [Turma II]</h3>
+                                        <h3>Local</h3>
+                                        <p>Campo</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 14:00 às 18:00</p>
+                                    </div>
+                                </div>
+                            </div><div class="mySlides2 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">7 / 7</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/sandraasantos.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Sandra Santos de Sousa</h3>
+                                        <h3>Introdução à meliponicultura</h3>
+                                        <h3>Local</h3>
+                                        <p>Auditório</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10 e 24/10, 08:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                        
+                        </div> 
+                    </div>
+                </section>
+
+                <!--Slide3-->
+
+                <section class="post" id="oficinas">
+                    <header class="post-header">
+                        
+                        <h2 class="post-title">Oficinas</h2>
+                        <p class="post-meta">
+                            Por <a class="post-author" href="https://www.instagram.com/ryan.plus0/" target="_blank">Pedro Ryan</a>
+                        </p>
+                    </header>
+                    <div class="post-slide"> 
+                        <div class="slideshow-conteiner pure-u-1">
+                            <div class="mySlides3 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">1 / 9</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/Img69.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Prof. Dr. Fernando Gomes de Andrade</h3>
+                                        <h3>Acessibilidade: Oficina Sensorial</h3>
+                                        <h3>Local</h3>
+                                        <p>Lab. Biologia</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>22/10, 08:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides3 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">2 / 9</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/Img03.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>Valdinar Ferreira Saldana</h3>
+                                        <h3>Reciclagem e artesanato [ Turma I ]</h3>
+                                        <h3>Local</h3>
+                                        <p>Rota do R.U.</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>22/10, 08:30 às 10:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="mySlides3 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">3 / 9</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/alessandra.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Prof. Ma. Alessandra Maria Magalhães</h3>
+                                        <h3>Cine Cultura Mexicana "Viva - A vida é uma festa"</h3>
+                                        <h3>Local</h3>
+                                        <p>Sala 3°A</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>22/10, 08:00 às 11:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides3 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">4 / 9</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/Img03.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Valdinar Ferreira Saldana</h3>
+                                        <h3>Reciclagem e artesanato [ Turma II ]</h3>
+                                        <h3>Local</h3>
+                                        <p>Rota do R.U</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>22/10, 10:00 às 11:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides3 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">5 / 9</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/alessandra.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>Prof. Ma. Alessandra Maria Magalhães</h3>
+                                        <h3>Cine Cultura Mexicana "Apocalypto"</h3>
+                                        <h3>Local</h3>
+                                        <p>Sala 3°A</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 08:00 às 11:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides3 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">6 / 9</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/alessandra.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>Prof. Ma. Alessandra Maria Magalhães, Prof. Dra. Carla Danielle Araujo Feitosa, Francielle Xavier Dias</h3>
+                                        <h3>Arteterapia</h3>
+                                        <h3>Local</h3>
+                                        <p>Sala do Módulo II Enfermagem</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 08:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides3 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">7 / 9</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/carla.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>Prof. Ma. Alessandra Maria Magalhães, Prof. Dra. Carla Danielle Araujo Feitosa, Francielle Xavier Dias</h3>
+                                        <h3>Arteterapia</h3>
+                                        <h3>Local</h3>
+                                        <p>Sala do Módulo II Enfermagem</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 08:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides3 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">8 / 9</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/franciele.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>Prof. Ma. Alessandra Maria Magalhães, Prof. Dra. Carla Danielle Araujo Feitosa, Francielle Xavier Dias</h3>
+                                        <h3>Arteterapia</h3>
+                                        <h3>Local</h3>
+                                        <p>Sala do Módulo II Enfermagem</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 08:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mySlides3 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">9 / 9</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/geovania.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Prof. Ma. Geovania Figueiredo da Silva</h3>
+                                        <h3>Do lixo ao luxo: Soluções criativas para Reaproveitamento de resíduos sólidos</h3>
+                                        <h3>Local</h3>
+                                        <p>Sala 2°A	</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 08:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides3 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">10 / 10</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/sandraasantos.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>Sandra Santos de Sousa</h3>
+                                        <h3>Confecção de recipiente-iscas para abelhas sem ferrão</h3>
+                                        <h3>Local</h3>
+                                        <p>Apiário</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>23/10, 14:00 às 17:30 e 24/10, 08:00 às 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+            
+                        </div> 
+                    </div>
+                </section>
+
+                <!-- Slide 04 -->
+
+                <section class="post" id="patrocinadores">
+                    <header class="post-header">
+                        
+                        <h2 class="post-title">Patrocinadores</h2>
+                        <p class="post-meta">
+                            Por <a class="post-author" href="https://www.instagram.com/0cavalcante_/" target="_blank">Callebe Miranda</a>
+                        </p>
+                    </header>
+                    <div class="post-slide"> 
+                        <div class="slideshow-conteiner pure-u-1">
+                            <div class="mySlides4 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">1 / 5</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/patrocinadores/ctbj.png" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Cólegio Técnico De Bom Jesus</h3>
+                                        <h3>É uma escola de educação profissional vinculada à Universidade Federal do Piauí (UFPI)</h3>
+                                        <h3>Local</h3>
+                                        <p>Estrada Municipal Bom Jesus-Viana - Planalto Horizonte, Bom Jesus - PI, 64900-000</p>
+                                        <h3>Horário de Funcionamento</h3>
+                                        <p>07:00 às 23:30</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides4 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">2 / 5</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/patrocinadores/eja-ept.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>EJA Integrada - EPT</h3>
+                                        <h3>O Programa da Educação de Jovens e Adultos Integrada à Educação Profissional</h3>
+                                        <h3>Local</h3>
+                                        <p>CTBJ</p>
+                                        <h3></h3>
+                                        <p>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="mySlides4 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">3 / 5</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/patrocinadores/fadex.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Fadex</h3>
+                                        <h3>Apoia projetos científicos e de fomento à pesquisa, ensino, extensão e inovação, a Fundação Cultural e de Fomento à Pesquisa, Ensino, Extensão e Inovação (FADEX) é uma facilitadora do universo acadêmico com a sociedade civil.</h3>
+                                        <h3>Local</h3>
+                                        <p>R. Hugo Napoleão, 2891 - Ininga, Teresina - PI, 64048-320</p>
+                                        <h3>Horário de Funcionamento</h3>
+                                        <p>8:30 à 12:00, 13:00 às 17:30</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides4 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">4 / 5</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/patrocinadores/ufpi.png" alt="" class="pure-img-responsive">
+                                    </a>
+                                    
+                                    <div class="description">
+                                        <h3>Universidade Federal do Piauí - UFPI</h3>
+                                        <h3>A Universidade Federal do Piauí (UFPI) é uma instituição federal de Ensino Superior sediada na cidade de Teresina - Estado do Piauí e com campi nas cidades de Picos, Floriano e Bom Jesus.</h3>
+                                        <h3>Local</h3>
+                                        <p>Piauí</p>
+                                        <h3></h3>
+                                        <p>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides4 fade pure-u-1-2">
+                                <div class="slide-content">
+
+                                    <div class="numbertext">5 / 5</div>
+
+                                    <a href="#">
+                                        <img src="Imgs/patrocinadores/images.jpg" alt="" class="pure-img-responsive">
+                                    </a>
+                                   
+                                    <div class="description">
+                                        <h3>Ministério da Educação</h3>
+                                        <h3>Qual é a função do Ministério da Educação? A função principal do MEC é promover ensino de qualidade em todo o país, em todos os níveis de ensino. Com isso, realiza ações contínuas, desenvolve, gerencia, fiscaliza e atualiza as diretrizes nacionais da educação.</h3>
+                                        <h3>Local</h3>
+                                        <p>Esplanada dos Ministérios - Edifício Sede - Sala 300 - Cep: 70047-900 - Brasília - DF</p>
+                                        <h3>Data e Horário</h3>
+                                        <p>09:00 às 17:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+            
+                        </div> 
+                    </div>
+                </section>
+
+
+            </div>
+            <div class="footer">
+                <div class="pure-menu pure-menu-horizontal">
+                    <ul>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
+                        <li class="pure-menu-item"><a href="https://www.instagram.com/ctbj.ufpi/" class="pure-menu-link" target="_blank">Ctbj</a></li>
+                    </ul>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</div>
+
+<script src="Js\script.js"></script>
+
+</body>
+</html>
